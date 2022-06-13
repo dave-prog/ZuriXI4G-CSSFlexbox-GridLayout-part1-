@@ -83,7 +83,6 @@ img{
     background-color: var(--bright-orange);
     border-radius: 10px 0 0 10px;
 }
-
 .suvs{
     background-color: var(--dark-cyan);
 }
@@ -95,6 +94,7 @@ img{
 
 .padding{
     width: 18.5%;
+    height: 55vh;
     padding: 4rem
 }
 
@@ -120,9 +120,38 @@ p{
     border-radius: 20px;
     font-family: var(--body-text);
     font-weight: 400;
-    font-size: 12.5px;
+    font-size: 12px;
     cursor: pointer;
 }
+.sedans-btn-color{
+    color: var(--bright-orange);
+}
+.suvs-btn-color{
+    color: var(--dark-cyan);
+}
+.luxury-btn-color{
+    color: var(--very-dark-cyan);
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--light-gray);
+}
+.sedans-btn-color:hover{
+    color: var(--light-gray);
+}
+.suvs-btn-color:hover{
+    color: var(--light-gray);
+}
+.luxury-btn-color:hover{
+    color: var(--light-gray);
+}
+
+
+
+
+
+
 
 .main-grid{
     width: 50vw;
